@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "СhatterboxServer", "Сhatterbox\СhatterboxServer.csproj", "{50F8DD5A-FEE4-42D0-8B58-D59DB988C3C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "СhatterboxClient", "СhatterboxClient\СhatterboxClient.csproj", "{647F0CD2-EAA3-45EB-8420-FB45BB616389}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50F8DD5A-FEE4-42D0-8B58-D59DB988C3C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50F8DD5A-FEE4-42D0-8B58-D59DB988C3C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50F8DD5A-FEE4-42D0-8B58-D59DB988C3C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50F8DD5A-FEE4-42D0-8B58-D59DB988C3C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{647F0CD2-EAA3-45EB-8420-FB45BB616389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{647F0CD2-EAA3-45EB-8420-FB45BB616389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{647F0CD2-EAA3-45EB-8420-FB45BB616389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{647F0CD2-EAA3-45EB-8420-FB45BB616389}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {902506C3-33C9-4138-99E7-71E7A7CABC96}
+	EndGlobalSection
+EndGlobal
