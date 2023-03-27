@@ -60,10 +60,10 @@ namespace Сhatterbox
 
                     bool addClient = true; // Переменная для определения нового пользователя
                     for (int i = 0; i < clients.Count; i++) // Циклом перебераем всех пользователей которые отправляли сообщения на сервер
-                        if (clients[i].Address.ToString() == remoteFullIp.Address.ToString()) // Если адрес отправителя данного сообщения совпадает с аддрессом в списке
+                        if (clients[i].Address.ToString() == remoteFullIp.Address.ToString()) // Если адрес отправителя данного сообщения совпадает с адресом в списке
                             addClient = false; // Не добавляем клиента в историю
-                    if (addClient == true) // Если этого отправителя не было обноруженно в истории
-                        clients.Add(remoteFullIp); // Добавляем клиента в исторю
+                    if (addClient == true) // Если этого отправителя не было обнфружено в истории
+                        clients.Add(remoteFullIp); // Добавляем клиента в историю
                     BroadcastMessage(builder.ToString(), remoteFullIp.Address.ToString()); // Рассылаем сообщения всем клиентам кроме самого отправителя
                 }
             }
